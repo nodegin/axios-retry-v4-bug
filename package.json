@@ -1,0 +1,19 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build && node dist/main.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "axios": "^1.6.2",
+    "axios-retry": "^4.0.0",
+    "typescript": "^5.2.2",
+    "unplugin-swc": "^1.4.3",
+    "vite": "^5.0.0",
+    "vite-node": "^0.34.6",
+    "vite-tsconfig-paths": "^4.2.1"
+  }
+}
